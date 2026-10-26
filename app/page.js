@@ -1,22 +1,8 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>HEJJJJJJ</h1>
-        </div>
-      </main>
-    </div>
+    <main>
+      <h1>Velkommen</h1>
+      <p>Dette er forsiden i din Next.js-app.</p>
+    </main>
   );
 }
